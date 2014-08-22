@@ -5,7 +5,7 @@ ini_set('display_errors', 1);
 */
 
 try {
-    $bdd = new PDO('mysql:host=localhost;dbname=camilleflorquin_collection', 'camilleflorquin', 'cENPyultvNpth67x');
+    $bdd = new PDO('mysql:host=localhost;dbname=', '', '');
 }
 
 catch (Exception $e) {
@@ -443,7 +443,7 @@ require_once('pagination.php');
 
 try
 {
-     $dbh = new PDO('mysql:host=localhost;dbname=camilleflorquin_collection', 'camilleflorquin', 'cENPyultvNpth67x');
+     $dbh = new PDO('mysql:host=localhost;dbname=', '', '');
      $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
 catch(PDOException $e)

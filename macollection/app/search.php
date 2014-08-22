@@ -4,7 +4,7 @@
 
     session_start();
 
-    $bdd = new PDO('mysql:host=localhost;dbname=collection', 'root', 'root');
+    $bdd = new PDO('mysql:host=localhost;dbname=', 'root', 'root');
 
     $pattern = $_GET['pattern'];
 

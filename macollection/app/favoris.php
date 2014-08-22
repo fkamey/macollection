@@ -1,9 +1,9 @@
 <?php
 
 $host="localhost"; // Host name 
-$username="camilleflorquin"; // Mysql username 
-$password="cENPyultvNpth67x"; // Mysql password 
-$db_name="camilleflorquin_collection"; // Database name 
+$username=""; // Mysql username 
+$password=""; // Mysql password 
+$db_name=""; // Database name 
 $tbl_name="notes"; // Table name 
 
 // Connect to server and select databse.
