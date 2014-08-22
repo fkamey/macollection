@@ -1,4 +1,4 @@
-MA Collection
+Ma Collection
 ============
 
 Ma collection de cartouches de jeu Game Boy
