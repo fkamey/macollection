@@ -1,6 +1,8 @@
 Ma Collection
 ============
 
+http://camilleflorquin.be/macollection/app/index.php
+
 Ma collection de cartouches de jeu Game Boy
 
 
@@ -25,8 +27,10 @@ Présence d'un pagination pour la galerie.
 (Moteur de recherche et enregistrement via twitter : en cours de développement, malheureusement, pas abouti.)
 
 
-
 Réflexion:
 Ce travail fut très difficile pour moi, n'étant pas portée sur le développement, celà m'a posé problème. 
 Mais malgré tout, j'ai réussi à faire avancer le projet et à réaliser le travail demandé.
 
+
+Lien de l'application : 
+http://camilleflorquin.be/macollection/app/index.php
