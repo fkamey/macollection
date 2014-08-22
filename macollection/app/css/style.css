@@ -1,0 +1,971 @@
+body#start-up {
+	background: url(../img/degrade-orange.png),url(../img/fondaccueil.jpg);
+	width: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'museo700', sans-serif;
+	margin: 0;
+
+	
+}
+
+
+#start-up h1 {
+	text-indent: -9999px;
+	height: 52px;
+	width: 340px;
+	margin: 0 auto;
+	margin-top: 90px;
+	background: url(../img/macollection-titre.png) no-repeat center;
+}
+
+#start-up p{
+	color: #fff;
+	font-size: 25px;
+	font-family: 'museo700', sans-serif;
+	text-align: center;	
+	margin-top: 20px;
+}
+
+#social{
+	width: 120px;
+	height: 40px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.tw{
+	height: 38px;
+	width: 40px;
+	float: left;
+	margin-right: 30px;
+}
+
+.tw:hover{
+	opacity: 0.5;
+}
+
+
+#connexion{
+	margin-top: 30px;
+}
+
+
+#co{
+	width: 100%;
+	height: 116px;
+
+	
+}
+
+
+
+.name{
+	padding-left: 60px;
+	background: url(../img/formsprite1.png)no-repeat,rgba(255,255,255,0.8);
+	width: 260px;
+	height: 58px;	
+	border: none;
+	border-bottom: 1px solid #de5041;
+	margin: auto;
+	display: block;
+}
+
+
+.name:focus{
+	background: url(../img/formsprite2.png)no-repeat,#fff;
+	-webkit-transition: all .3s ease-in-out;
+}
+
+
+.password{
+	padding-left: 60px;
+	background: url(../img/formsprite1.png)no-repeat,rgba(255,255,255,0.8);
+	background-position: 0 -70px;
+	width: 260px;
+	height: 58px;	
+	border: none;
+	border-bottom: 1px solid #de5041;
+	margin-left: 0;
+	margin: auto;
+	display: block;
+}
+
+
+.password:focus{
+	background: url(../img/formsprite2.png)no-repeat,#fff;
+	background-position: 0 -70px;
+	-webkit-transition: all .3s ease-in-out;
+}
+
+
+#log{
+	width: 321px;
+	margin: auto;
+	display: block;
+	height: 45px;
+	background-color: #f66f61;
+	border: none;
+	font-family: 'museo700', sans-serif;
+	margin: 15px auto 0;
+	padding: 7px;
+	color: #fff;
+	font-size: 20px;
+	
+}
+
+#plus{
+	width: 321px;
+	height: 45px;
+	margin: auto;
+	
+}
+
+#signup{
+	float: left;
+	height: 45px;
+	width: 100%;
+	background-color: #de5041;
+}
+
+#signup p {
+	margin-top: 8px;
+	text-align: center;
+	font-size: 20px;
+}
+
+
+
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+ 
+.clearfix {
+    display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+    display: block;
+}
+ 
+* html .clearfix {
+    height: 1%;
+}
+
+
+body#app {
+	background: #FFF url(../img/grey.png);
+	width: 100%;
+	font-family: 'museo500', sans-serif;
+	padding-bottom: 60px;
+}
+
+
+
+#app header {
+	background: #f66f61;
+	height: 75px;
+}
+
+#app h1 {
+	text-indent: -9999px;
+	height: 75px;
+	width: 280px;
+	margin: 0 auto;
+	background: url(../img/macollection-haut.png) no-repeat center;
+}
+
+h2 {
+	color: #1ABC9C;
+	margin-bottom: 12px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+h2 img {
+	margin-right: 5px;
+	margin-bottom: -3px;
+}
+
+
+
+
+nav ul li {
+	display: inline;
+}
+
+nav ul li a {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	text-indent: -9999px;
+}
+
+a#search {
+	background: url(../img/spritehaut.png) no-repeat center;
+	background-position: -40px 0px;
+	text-indent: -9999px;
+	width: 40px;
+	height: 40px;
+	display: block;
+	float: right;
+	margin: 17px;
+}
+
+a#search:hover {
+	background: url(../img/spritehaut.png) no-repeat center;
+	background-position: -40px -40px;
+}
+
+
+.sidr {
+	display:none;
+	position:fixed;
+	top:0;
+	height:100%;
+	z-index:999999;
+	width:210px;
+	overflow-x:none;overflow-y:auto;
+	font-size:14px;
+	background:#504f4f;
+	color:#FFF;
+}
+
+.sidr .sidr-inner{
+	padding:0 0 15px;
+}
+
+
+.sidr.right{
+	-webkit-transform:translateX(260px);
+}
+
+
+.sidr.left{
+	-webkit-transform:translateX(0px);
+}
+
+.sidr h2 {
+	font-family: 'museo700';
+	color: #fff;
+	margin:25px 0 0px 20px;
+	font-size: 20px;
+
+}
+
+
+.sidr h3 {
+	font-size: 16px;
+	font-family: 'museo300';
+}
+
+
+.sidr p {
+	font-size:14px; margin:0 5px 10px;
+}
+
+.sidr ul {
+	display:block;
+	margin-top:50px;
+	padding:0;
+}
+
+
+.sidr ul li a {
+	display: block;
+	padding: 12px;
+}
+
+.sidr ul li:hover,.sidr ul li.active,.sidr ul li.sidr-class-active{
+	background: rgba(0,0,0,0.3);
+	border-left: 5px solid #de5041;
+}
+
+.sidr ul li {
+	display: block;
+	border-left: 5px solid transparent;
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+	box-shadow: 0px 2px 3px rgba(0,0,0,0.1);
+}
+
+
+
+.sidr ul li a,.sidr ul li span{
+	display:block;text-decoration:none;color:#fff
+}
+
+.sidr ul li ul{
+	border-bottom:none;margin:0
+}
+
+.sidr ul li ul li {
+	line-height:40px;font-size:13px;
+}
+
+.sidr ul li ul li:last-child {
+	border-bottom:none
+}
+
+
+
+.sidr form{margin:0 15px}
+.sidr label{font-size:13px}
+
+.sidr input[type="text"],.sidr input[type="password"],
+.sidr input[type="date"],.sidr input[type="datetime"],
+.sidr input[type="email"],.sidr input[type="number"],
+.sidr input[type="search"],.sidr input[type="tel"],
+.sidr input[type="time"],.sidr input[type="url"],.sidr textarea,.sidr select {
+	width:100%;font-size:13px;padding:5px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;box-sizing:border-box;
+
+	margin:0 0 10px;
+
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	-ms-border-radius:2px;
+	-o-border-radius:2px;
+	border-radius:2px;
+	border:none;
+
+	background:rgba(0,0,0,0.1);
+	color:rgba(255,255,255,0.6);
+	display:block;clear:both
+}
+
+
+.sidr input[type=checkbox] {
+	width:auto;display:inline;clear:none;
+}
+
+.sidr input[type=button],.sidr input[type=submit]{
+	color:#333;background:#fff;
+}
+
+.sidr input[type=button]:hover,.sidr input[type=submit]:hover{
+	background:rgba(255,255,255,0.9);
+}
+
+
+
+
+
+
+
+#simple-menu {
+	background: url(../img/spritehaut.png) no-repeat;
+	background-position: 0 0;
+	text-indent: -9999px;
+	width: 40px;
+	height: 40px;
+	display: block;
+	float: left;
+	margin: 17px;
+}
+
+
+#simple-menu:hover {
+	background: url(../img/spritehaut.png) no-repeat;
+	background-position: 0 -40px;
+}
+
+
+
+
+.sidr img {
+	width: 57px;
+	height: 57px;
+	border-radius: 50%;
+	border: 2px solid #111;
+	margin: 20px 10px;
+	margin-right: 20px;
+	float: left;
+}
+
+#logout {
+	padding: 14px 14px;
+	background: #504f4f;
+	display: block;
+	text-align: left;
+	color: #f66f61;
+}
+
+#logout:hover{
+	background: #222222;
+}
+
+
+/* PAGE ACCUEIL */
+
+
+
+
+#index {
+	width: 300px;
+	margin: 10px auto;
+	display: block;
+	margin-top: 30px;
+}
+
+
+
+#latest {
+	width: 300px;
+	margin: 0 auto;
+}
+
+.bloc {
+	height: 94px;
+	width: 320px;
+	margin-top: 10px;
+	}
+
+.bloc a img {
+	width: 94px;
+	height: 94px;
+	float: left;
+	
+
+}
+.inline-popups a img{
+	float: left;
+}
+.infoplus{
+	float: left;
+	font-size: 14px;
+	font-family: 'museo300', sans-serif;
+	width: 190px;
+	height: 106px;
+	margin: 10px 0 0 10px;
+}
+
+.bloc .info {
+	display: none;
+}
+
+.bloc.unfold {
+	width: 300px;
+	height: 300px;
+}
+
+.bloc.unfold .info {
+	display: block;
+}
+
+.bloc.unfold .thumb {
+	display: none;
+}
+
+
+
+
+#gallerie, #favorisuser, #notesuser {
+	width: 300px;
+	margin: 30px auto;
+	position: absolute;
+	display: block;
+	left: -9999px;
+}
+
+
+
+.present{
+	width: 320px;
+	height: auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.present .titre{
+	color: #f66f61;
+	font-family: 'museo700', sans-serif;
+}
+
+.present .date{
+	color: #5a5a5a;
+	font-size: 11px;
+	font-family: 'museo300', sans-serif;
+}
+
+.present .description{
+	color: #141414;
+	font-size: 13px;
+	font-family: 'museo500', sans-serif;
+	float: left;
+	margin-left: 10px;
+	width: 215px;
+}
+
+.paginationlink{
+	width: 320px;
+	
+}
+
+    .pagination {
+        padding-left: 0px;
+        margin-left: 0px;
+        width: 340px;
+    }
+
+    .pagination li {
+        float: left;
+        padding-right: 10px;
+    }
+
+    .pagination li a.current-link {
+        font-weight: bold;
+        text-decoration: none;
+        color: #000000;
+    }
+
+/* ----------------code pop up------------*/
+
+
+
+
+/* text-based popup styling */
+.white-popup {
+  position: relative;
+  background: #f66f61;
+  padding: 20px;
+  width: auto;
+  max-width: 320px;
+  margin: auto;
+  border-radius: 10px;
+  color: white;
+
+
+}
+
+/* preview styles */
+html {
+  font-family: "Calibri", "Trebuchet MS", "Helvetica", sans-serif;
+}
+
+a,
+a:visited {
+  color: #1760BF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c00;
+}
+
+.links li {
+  margin-bottom: 5px;
+}
+
+#test-popup {
+  color: #fff;
+}
+
+#popupinfo {
+  color: #fff;
+}
+
+
+#donnerinfo input, #donnerinfo textarea, #updateinfo input, #updateinfo textarea{
+	margin: 10px 0;
+	border-radius: 4px;
+	border: none;
+	height: 20px;
+	width: 320px;
+}
+#donnerinfo textarea{
+width: 320px;
+height: 60px
+}
+
+.submit{
+	color: #fff;
+	background-color: #1ABC9C;
+	border: none;
+	width: 100px;
+	height: 30px;
+	border-radius: 2px;
+}
+/* ----------------Contenu POP UP ----------------*/
+
+
+
+
+#test-popup .titrepopup{
+	font-family: 'museo700', sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: center;
+	width: 300px;
+	
+	
+}
+
+
+
+#signin{
+	width: 300px;
+	height: 60px;
+	background-color: #f66f61;
+	border: none;
+	text-transform: uppercase;
+	font-family: 'museo700', sans-serif;
+	margin: 0 auto;
+	padding: 13px;
+	color: #fff;
+	font-size: 25px;
+	
+	margin-top: 20px;
+	
+}
+
+.nom{
+	padding-left: 10px;
+	background-color: rgba(255,255,255,0.8);
+	width: 290px;
+	height: 40px;	
+	border: none;
+
+
+}
+
+
+.nom:focus{
+	background-color: #fff;
+
+}
+
+
+.mdp{
+	background-color:rgba(255,255,255,0.8);
+	padding-left: 10px;
+	width: 290px;
+	height: 40px;	
+	border: none;
+	
+}
+
+
+.mdp:focus{
+
+	background-color: #fff;
+}
+
+.username{
+	background-color:rgba(255,255,255,0.8);
+	padding-left: 10px;
+	width: 290px;
+	height: 40px;	
+	border: none;
+}
+
+
+.username:focus{
+
+	background-color: #fff;
+}
+
+
+.email{
+	background-color:rgba(255,255,255,0.8);
+	padding-left: 10px;
+	width: 290px;
+	height: 40px;	
+	border: none;
+}
+
+
+.email:focus{
+
+	background-color: #fff;
+}
+
+
+#test-popup .infotext{
+	font-size: 15px;
+	margin: 10px 0 5px 0;
+	width: 300px;
+}
+
+
+
+/* ----------------Account ----------------*/
+
+h4{
+	margin: 0 auto;
+	font-size: 20px;
+	color: #f66f61;
+	text-align: center;
+	margin: 20px 0 20px 0;
+	
+}
+
+
+		
+#settingsuser{
+	width: 300px;
+	margin: 0 auto;
+	position: absolute;
+	left: -99999px;
+}
+
+
+#avatar{	
+	margin: 0 auto;
+	width: 260px;
+
+	height: 100px;
+	padding: 20px;
+		
+			
+}
+
+		
+#avatar img {
+	width: 57px;
+	height: 57px;
+	border-radius: 50%;
+	border: 2px solid #111;
+	margin: 20px 10px;
+	margin-right: 20px;
+	float: left;
+}
+		
+		
+#avatar h2 {
+	font-family: 'museo700';
+	color: #1ABC9C;
+	margin:20px 0 0px 0px;
+	font-size: 20px;
+
+	
+
+}
+
+
+#avatar h3 {
+	font-size: 16px;
+	font-family: 'museo300';
+}
+
+		
+#changer{
+	width: 300px;
+	height: 50px;
+	float: left;
+}
+		
+.change{
+	float: left;
+	font-size: 13px;
+	color: #f66f61;
+	margin-right: 40px;
+}
+		
+		
+		
+
+		
+#supprimer{
+	display: block;
+	clear: both;
+	margin: auto;
+	width: 270px;
+	text-align: center;
+	padding: 15px;
+	background-color: rgba(245,110,95,0.69);
+	margin-top: 20px;
+	color: #fff;
+	font-size: 13px;
+	margin-bottom: 60px;
+	border: none;
+}
+
+#supprimer:hover{
+	background-color: #f66f61;
+}
+
+/* ----------------ABOUT APP ----------------*/
+
+
+
+#aboutapp{
+	width: 300px;
+	margin: 100px auto 0;
+
+	position: absolute;
+	left: -99999px;
+}
+
+		
+.logoorange {
+	text-indent: -9999px;
+	height: 46px;
+	width: 300px;
+	margin: 0 auto;
+	background: url(../img/logoorange.png) no-repeat center;
+}
+
+		
+.version{
+	color: #5e5e5e;
+	font-size: 15px;
+	text-align: center;
+	margin-top: 20px;
+
+}
+
+#about p{
+	text-align: center;
+	margin-top: 20px;
+			
+}
+
+
+
+/* ----------------SEARCH ----------------*/
+
+
+#searchnote{
+	width: 300px;
+	margin: 10px auto;
+
+
+	position: absolute;
+	left: -99999px;
+	
+}
+
+
+#searchpattern{
+	margin-top: 20px;
+	background-color:#e9e9e9;
+	width: 300px;
+	height: 40px;
+	border: none;
+	border-bottom: 1px solid #2a9198;
+}
+
+
+#searchpattern:focus{
+
+	background-color: #efefef;
+}
+
+
+#findnotes {
+	margin-top: 20px;
+}
+
+#findnotes img {
+	width: 300px;
+	height: 300px;
+	display: block;
+	float: left;
+}
+
+/* ----------------ACCOUNT ----------------*/
+
+#accountuser{
+	width: 300px;
+	margin: 0 auto;
+	display: block;
+	position: absolute;
+	left: -99999px;
+}
+
+
+#infosuser{
+	width: 300px;
+	height: 50px;
+	background-color: rgba(232,77,60,0.6);
+	margin: auto;
+	border-radius: 15px;
+	margin-bottom: 20px;
+	position: relative;
+	
+}
+
+
+.case{
+	width: 100px;
+	height: 50px;
+	float: left;
+	position: absolute;
+	border-left: 1px solid #fff;
+}
+
+
+
+.deu{
+	margin-left: 100px;
+}
+
+.tro{
+
+	margin-left: 200px;
+}
+
+.nb{
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+}
+
+.lt{
+	color: #fff;
+	font-size: 13px;
+	text-align: center;
+	font-family: 'museo300', sans-serif;
+}
+
+
+.mylatestnotes{
+	margin-bottom: 20px;
+}
+
+
+
+
+/* MESSAGE */
+
+.message {
+	clear: both;
+	background: #f66f61;
+	padding: 20px;
+	width: auto;
+	max-width: 320px;
+	margin: 40px auto 0;
+	border-radius: 10px; 
+	color: #fff;
+	font-size: 25px;
+	font-family: 'museo700', sans-serif;
+	text-align: center;	
+}
+
+
+
+
+#presentation{
+	font-size: 15px;
+	font-family: 'museo300', sans-serif;
+	line-height: 20px;
+	text-align: justify;
+}
+
+
+#favoris{
+	background:url(../img/add73.png);
+	width: 30px;
+	height: 25px;
+	background-size: 28px;
+	float: right;
+
+}
