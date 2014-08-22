@@ -10,7 +10,7 @@ Ma Collection est un application qui vous permet de retrouver les noms, photos e
 Grace à cette application vous pouvez répertorier votre propre collection. 
 Après votre inscription et votre connexion, vous retrouverez toutes les cartouches de jeu Game Boy. Si vous le souhaitez, vous pouvez rajouter des cartouches qui ne sont pas présentent dans le catalogue.
 
-Pour ajouter une cartouche à votre propre collection, il suffit de cliquer sur le petit icone "coeur". Vous pouvez retrouver votre propre collection de cartouches dans "mes cartouches".
+Pour ajouter une cartouche à votre propre collection, il suffit de cliquer sur le petit icone "plus". Vous pouvez retrouver votre propre collection de cartouches dans "mes cartouches".
 
 Vous pouvez aussi gérer votre compte utilisateur. Modifiez votre pseudo, photo de profil ou bien supprimez votre compte.
 
